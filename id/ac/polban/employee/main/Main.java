@@ -15,8 +15,9 @@ public class Main {
         service.addEmployee(emp2);
 
         System.out.println("Employee : ");
-        System.out.println(emp1.getName() + " " + emp1.getSalary());
-        System.out.println(emp2.getName() + " " + emp2.getSalary());
+        System.out.println("ID - NAMA - DEPARTMENT - TYPE - SALARY");
+        System.out.println(emp1.getId() + " - " + emp1.getName() + " - " + emp1.getDepartment() + " - " + emp1.getType() + " - " + emp1.getSalary());
+        System.out.println(emp2.getId() + " - " + emp2.getName() + " - " + emp2.getDepartment() + " - " + emp2.getType() + " - " + emp2.getSalary());
         System.out.println("Total Employee : " + Employee.getTotalEmployee());
     }
 }
