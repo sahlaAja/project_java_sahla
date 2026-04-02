@@ -27,7 +27,7 @@ public class ProblemOne {
         .collect(Collectors.toList());
 
         for(Pekerja p : sortedEmp){
-            System.out.println("{Name = " + p.getname() + ", Salary = " + p.getSalary() + "}");
+            System.out.println("Employee : {Name = " + p.getname() + ", Salary = " + p.getSalary() + "}");
         }
 
     }
